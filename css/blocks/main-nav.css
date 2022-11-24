@@ -1,0 +1,17 @@
+.main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.main-nav__logo {
+  margin-right: 65px;
+}
+
+.main-nav__site-nav {
+  margin: 0 auto 0 0;
+}
+
+.main-nav__user-nav {
+  margin: 0 0 0 50px;
+}

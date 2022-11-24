@@ -1,0 +1,27 @@
+.banner {
+  max-width: 760px;
+
+  text-align: center;
+}
+
+.banner--full {
+  text-align: left;
+}
+
+.banner__title {
+  margin: 0 0 20px 0;
+
+  font-family: var(--font-title);
+  font-size: var(--font-xxxl);
+  line-height: var(--line-height-banner-title);
+  font-weight: var(--normal);
+  color: var(--color-main-bg);
+}
+
+.banner__text {
+  font-family: var(--font-standart);
+  font-size: var(--font-xl);
+  line-height: var(--line-height-banner);
+  font-weight: var(--normal);
+  color: #cacde0;
+}

@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "Manrope";
+  src: url("../../fonts/manrope-500.woff2") format("woff2"),
+    url("../../fonts/manrope-500.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+    
+@font-face {
+  font-family: "Manrope";
+  src: url("../../fonts/manrope-400.woff2") format("woff2"),
+    url("../../fonts/manrope-400.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+    
+@font-face {
+  font-family: "Prosto One";
+  src: url("../../fonts/prostoone-400.woff2") format("woff2"),
+    url("../../fonts/prostoone-400.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-standart: "Manrope", "Arial", sans-serif;
+  --font-title: "Prosto One", "Arial", sans-serif;
+
+  --font-xs: 12px;
+  --font-s: 14px;
+  --font-m: 16px;
+  --font-l: 18px;
+  --font-xl: 22px;
+  --font-xxl: 34px;
+  --font-xxxl: 76px;
+
+  --normal: 400;
+  --medium: 500;
+
+  --line-height-xs: 12px;
+  --line-height-s: 14px;
+  --line-height-m: 16px;
+  --line-height-l: 18px;
+  --line-height-xl: 20px;
+  --line-height-xxl: 21px;
+  --line-height-xxxl: 24px;
+  --line-height-xxxxl: 27px;
+  
+  --line-height-banner: 31px;
+  --line-height-lead: 33px;
+  --line-height-section-title: 34px;
+  --line-height-banner-full-title: 76px;
+  --line-height-banner-title: 84px;
+
+  --color-main-bg: #fcfcfc;
+  --color-alternate-bg: #f5f8fc;
+  --color-border-main: #e0e2ec;
+  --color-main-font: #2f3250;
+  --color-main-text-font: #404254;
+  --color-accent-red: #fb0f39;
+  --color-accent-light-red: #f46780;
+  --color-font-blue: #4a5fcf;
+  --color-main-blue: #4d66ec;
+  --color-banner-yellow: #f3f3ba;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.page {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-width: 1260px;
+  min-height: 100vh;
+  margin: 0;
+
+  font-family: var(--font-standart);
+  font-size: var(--font-m);
+  line-height: var(--line-height-xxxl);
+  font-weight: var(--normal);
+  word-break: break-word;
+  color: var(--color-main-text-font);
+
+  background-color: var(--color-main-bg);
+  background-image: url("../../images/promo-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100%;
+}
+
+.page--inner {
+  background-image: url("../../images/background-blue.jpg");
+}

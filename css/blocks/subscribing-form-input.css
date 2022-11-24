@@ -1,0 +1,40 @@
+.subscribing-form-input {
+  padding: 18px 50px 18px 17px;
+  width: 100%;
+
+  font-family: var(--font-standart);
+  font-size: var(--font-s);
+  line-height: var(--line-height-s);
+
+  background-color: transparent;
+  border: 1px solid var(--color-border-main);
+}
+
+.subscribing-form-input:hover {
+  border-color: var(--color-main-font);
+}
+
+.subscribing-form-input:focus {
+  border-color: var(--color-main-blue);
+  outline: none;
+}
+
+.subscribing-form-input::placeholder {
+  color: rgba(47, 50, 80, 0.3);
+}
+
+.subscribing-form-input:hover::placeholder {
+  color: rgba(47, 50, 80, 0.6);
+}
+
+.subscribing-form-input:focus::placeholder {
+  color: var(--color-main-font);
+}
+
+.subscribing-form-input:disabled {
+  border-color: rgba(224, 226, 236, 0.5);
+}
+
+.subscribing-form-input:disabled::placeholder {
+  color: rgba(47, 50, 80, 0.15);
+} 

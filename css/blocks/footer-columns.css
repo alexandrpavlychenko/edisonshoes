@@ -1,0 +1,14 @@
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 114px;
+}
+
+.footer-columns__column--logo-contacts {
+  margin-right: 97px;
+}
+
+.footer-columns__column {
+  max-width: 140px;
+  margin: 0 auto 0 0;
+}

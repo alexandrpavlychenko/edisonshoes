@@ -1,0 +1,29 @@
+.quote-accent {
+  padding: 40px 20px;
+  width: 695px;
+
+  background-image: url("../../images/blockquote-bg.png");
+  background-repeat: repeat;
+  background-size: 695px 209px;
+  background-position: left top;
+}
+
+.quote-accent__text {
+  margin: 0 0 15px 0;
+
+  font-family: var(--font-title);
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  color: var(--color-main-bg);
+}
+
+.quote-accent__cite {
+  display: block;
+
+  font-size: var(--font-s);
+  line-height: var(--line-height-xxl);
+  font-style: normal;
+  text-align: center;
+  color: #cacde0;
+}

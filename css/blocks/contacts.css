@@ -1,0 +1,52 @@
+.contacts__link {
+  display: block;
+  margin-bottom: 19px;
+  padding-left: 20px;
+
+  font-size: var(--font-xs);
+  line-height: var(--line-height-xs);
+  font-style: normal;
+  text-decoration: none;
+  color: inherit;
+}
+
+.contacts__link--tel {
+  background-image: url("../../images/phone-icon.svg");
+  background-repeat: no-repeat;
+  background-size: 12px 12px;
+  background-position: 0 0;
+}
+
+.contacts__link--mail {
+  background-image: url("../../images/mail-icon.svg");
+  background-repeat: no-repeat;
+  background-size: 12px 9px;
+  background-position: 0 2px;
+}
+
+.contacts__link:hover,
+.contacts__link:focus {
+  text-decoration: underline;
+  
+  outline: none;
+}
+
+.contacts__link:active {
+  opacity: 0.5;
+}
+
+.contacts__text {
+  display: block;
+  padding-left: 20px;
+
+  font-size: var(--font-xs);
+  line-height: var(--line-height-l);
+  font-style: normal;
+}
+
+.contacts__text--location {
+  background-image: url("../../images/location-icon.svg");
+  background-repeat: no-repeat;
+  background-size: 10px 12px;
+  background-position: 0 3px;
+}

@@ -1,0 +1,17 @@
+.subscribing-form {
+  position: relative;
+}
+
+.subscribing-form__label {
+  display: block;
+  margin-bottom: 21px;
+
+  font-size: var(--font-s);
+  line-height: var(--line-height-xxl);
+}
+
+.subscribing-form__btn {
+  position: absolute;
+  right: 18px;
+  bottom: 21px;
+}

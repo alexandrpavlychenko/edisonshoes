@@ -1,0 +1,23 @@
+.banner-full__title {
+  margin: 0 0 20px 0;
+
+  font-family: var(--font-title);
+  font-size: var(--font-xxxl);
+  line-height: var(--line-height-banner-full-title);
+  font-weight: var(--normal);
+  color: var(--color-font-blue);
+}
+
+.banner-full__text {
+  margin: 0 0 55px 0;
+
+  font-family: var(--font-standart);
+  font-size: var(--font-xl);
+  line-height: var(--line-height-banner);
+  font-weight: var(--normal);
+  color: var(--color-main-font);
+}
+
+.banner-full__btn {
+  margin-bottom: 20px;
+}

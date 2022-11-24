@@ -1,0 +1,36 @@
+.aside {
+  margin-bottom: 40px;
+  width: 100%;
+
+  text-align: center;
+
+  background-image: url("../../images/aside-banner.jpg");
+  background-repeat: repeat;
+  background-size: 210px 324px;
+  background-position: center top;
+}
+
+.aside__link {
+  display: block;
+  padding: 40px 10px 15px 10px;
+  width: 100%;
+  min-height: 324px;
+  text-decoration: none;
+  color: var(--color-main-font);
+}
+
+.aside__title {
+  margin: 0 0 8px 0;
+
+  font-family: var(--font-title);
+  font-size: 20px;
+  line-height: var(--line-height-xl);
+  font-weight: var(--normal);
+}
+
+.aside__text {
+  margin: 0 0 6px 0;
+
+  font-size: var(--font-xs);
+  line-height: var(--line-height-l);
+}

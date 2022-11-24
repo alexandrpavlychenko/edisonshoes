@@ -1,0 +1,13 @@
+.payment-methods {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.payment-methods__text {
+  margin-right: 30px;
+
+  font-size: var(--font-s);
+  line-height: var(--line-height-s);
+}

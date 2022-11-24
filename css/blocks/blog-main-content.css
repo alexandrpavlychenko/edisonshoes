@@ -1,0 +1,8 @@
+.blog-main-content {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: "asides article";
+  column-gap: 105px;
+  padding-top: 56px;
+  padding-bottom: 60px;
+}

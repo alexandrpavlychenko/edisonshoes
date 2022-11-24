@@ -1,0 +1,23 @@
+.blog-card__img-wrapper {
+  margin-bottom: 20px;
+  width: 380px;
+  height: 233px;
+}
+
+.blog-card__img {
+  object-fit: cover;
+}
+
+.blog-card__title {
+  margin: 0 0 15px 0;
+
+  font-family: var(--font-title);
+  font-size: var(--font-l);
+  line-height: var(--line-height-l);
+  font-weight: var(--normal);
+  color: var(--color-main-font);
+}
+
+.blog-card__text {
+  margin: 0 0 25px 0;
+}

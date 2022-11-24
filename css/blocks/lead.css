@@ -1,0 +1,8 @@
+.lead {
+  width: 720px;
+
+  font-size: var(--font-xl);
+  line-height: var(--line-height-lead);
+  font-weight: var(--medium);
+  color: var(--color-main-font);
+}

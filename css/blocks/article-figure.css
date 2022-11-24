@@ -1,0 +1,13 @@
+.article-figure {
+  margin: 0;
+}
+
+.article-figure__img {
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+
+.article-figure__img-caption {
+  font-size: var(--font-s);
+  line-height: var(--line-height-xxl);
+}

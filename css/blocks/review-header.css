@@ -1,0 +1,41 @@
+.review-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.review-header__img-cite-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-right: auto;
+}
+
+.review-header__img-wrapper {
+  margin-right: 12px;
+  width: 40px;
+  height: 40px;
+}
+
+.review-header__img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+
+  border-radius: 50%;
+}
+
+.review-header__cite {
+  font-size: var(--font-l);
+  line-height: var(--line-height-l);
+  font-weight: var(--medium);
+  font-style: normal;
+}
+
+.review-header__datetime {
+  margin-left: 12px;
+
+  font-size: var(--font-s);
+  line-height: var(--line-height-s);
+  color: rgba(64, 66, 84, 0.3);
+}

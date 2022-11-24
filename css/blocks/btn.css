@@ -1,0 +1,76 @@
+.btn {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 14px 13px 14px;
+
+  font-family: var(--font-standart);
+  font-size: var(--font-s);
+  line-height: var(--line-height-s);
+  font-weight: var(--medium);
+  text-align: center;
+  text-decoration: none;
+
+  border: 1px solid var(--color-main-blue);
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn--primary {
+  color: var(--color-main-bg);
+
+  background-color: var(--color-main-blue);
+}
+
+.btn--primary:hover,
+.btn--primary:focus {
+  background-color: var(--color-accent-red);
+  border: 1px solid var(--color-accent-red);
+  outline: none;
+}
+
+.btn--secondary {
+  color: var(--color-main-font);
+  
+  background-color: transparent;
+}
+
+.btn--secondary:hover,
+.btn--secondary:focus {
+  border: 1px solid var(--color-accent-red);
+
+  outline: none;
+}
+
+.btn:active {
+  opacity: 0.5;
+}
+
+.btn--size-s {
+  width: 130px;
+  min-height: 40px;
+}
+
+.btn--size-m {
+  width: 140px;
+  min-height: 40px;
+}
+
+.btn--size-l {
+  width: 180px;
+  min-height: 40px;
+
+  font-size: var(--font-xs);
+  line-height: var(--line-height-xs);
+}
+
+.btn--size-xl {
+  width: 210px;
+  min-height: 56px;
+
+  font-size: var(--font-m);
+  line-height: var(--line-height-m);
+}
